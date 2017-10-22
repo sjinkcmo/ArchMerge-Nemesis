@@ -25,9 +25,7 @@ sh AUR/install-dropbox-v*.sh
 sh AUR/install-gnome-screenshot-v*.sh
 sh AUR/install-gradio-v*.sh
 sh AUR/install-insync-v*.sh
-sh AUR/install-pamac-v*.sh
 sh AUR/install-paper-icon-theme-git-v*.sh
-sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-radiotray-v*.sh
 sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-skypeforlinux-bin-v*.sh
