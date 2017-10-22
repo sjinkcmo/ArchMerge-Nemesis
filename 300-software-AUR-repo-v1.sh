@@ -18,7 +18,6 @@ set -e
 #only if you run into issues with that
 #sudo mount -o remount,size=5G,noatime /tmp
 
-sh AUR/install-all-plank-themes-v*.sh
 sh AUR/install-arc-gtk-theme-git-v*.sh
 sh AUR/install-brackets-v*.sh
 sh AUR/install-xcursor-breeze-v*.sh
