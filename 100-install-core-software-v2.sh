@@ -12,10 +12,10 @@ set -e
 ##################################################################################################################
 
 #software from 'normal' repositories
+
 sudo pacman -S --noconfirm --needed atom dconf-editor
 sudo pacman -S --noconfirm --needed pinta
 sudo pacman -S --noconfirm --needed screenfetch 
-sudo pacman -S --noconfirm --needed simple-scan  
 
 ###############################################################################################
 
