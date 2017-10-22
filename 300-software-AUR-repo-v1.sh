@@ -23,8 +23,6 @@ sh AUR/install-brackets-v*.sh
 sh AUR/install-xcursor-breeze-v*.sh
 #sh AUR/install-canon-mg7750-v*.sh
 sh AUR/install-conky-aureola-v*.sh
-sh AUR/install-cool-retro-term-v*.sh
-sh AUR/install-downgrade-v*.sh
 sh AUR/install-dropbox-v*.sh
 sh AUR/install-font-manager-v*.sh
 sh AUR/install-gnome-screenshot-v*.sh
