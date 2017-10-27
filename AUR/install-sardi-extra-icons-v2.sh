@@ -378,160 +378,160 @@ else
 fi
 
 
-count=$[count+1]
-echo "Github "$count
-package="sardi-ghost-flexible-variations-icons-git"
+# count=$[count+1]
+# echo "Github "$count
+# package="sardi-ghost-flexible-variations-icons-git"
 
-#----------------------------------------------------------------------------------
+# #----------------------------------------------------------------------------------
 
-#checking if application is already installed or else install with aur helpers
-if pacman -Qi $package &> /dev/null; then
+# #checking if application is already installed or else install with aur helpers
+# if pacman -Qi $package &> /dev/null; then
 
-	echo "################################################################"
-	echo "################## "$package" is already installed"
-	echo "################################################################"
+# 	echo "################################################################"
+# 	echo "################## "$package" is already installed"
+# 	echo "################################################################"
 
-else
+# else
 
-	#checking which helper is installed
-	if pacman -Qi yaourt &> /dev/null; then
+# 	#checking which helper is installed
+# 	if pacman -Qi yaourt &> /dev/null; then
 
-		echo "Installing with yaourt"
-		yaourt -S --noconfirm $package --tmp ~/.cache
+# 		echo "Installing with yaourt"
+# 		yaourt -S --noconfirm $package --tmp ~/.cache
 		
 
-	elif pacman -Qi pacaur &> /dev/null; then
+# 	elif pacman -Qi pacaur &> /dev/null; then
 
-		echo "Installing with pacaur"
-		pacaur -S --noconfirm --noedit  $package
+# 		echo "Installing with pacaur"
+# 		pacaur -S --noconfirm --noedit  $package
 
-	elif pacman -Qi packer &> /dev/null; then
+# 	elif pacman -Qi packer &> /dev/null; then
 
-		echo "Installing with packer"
-		packer -S --noconfirm --noedit  $package
+# 		echo "Installing with packer"
+# 		packer -S --noconfirm --noedit  $package
 
-	fi
+# 	fi
 
-	# Just checking if installation was successful
-	if pacman -Qi $package &> /dev/null; then
+# 	# Just checking if installation was successful
+# 	if pacman -Qi $package &> /dev/null; then
 
-	echo "################################################################"
-	echo "#########  "$package" has been installed"
-	echo "################################################################"
+# 	echo "################################################################"
+# 	echo "#########  "$package" has been installed"
+# 	echo "################################################################"
 
-	else
+# 	else
 
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	echo "!!!!!!!!!  "$package" has NOT been installed"
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+# 	echo "!!!!!!!!!  "$package" has NOT been installed"
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
-	fi
+# 	fi
 
-fi
+# fi
 
 
-count=$[count+1]
-echo "Github "$count
-package="sardi-ghost-flexible-mixing-icons-git"
+# count=$[count+1]
+# echo "Github "$count
+# package="sardi-ghost-flexible-mixing-icons-git"
 
-#----------------------------------------------------------------------------------
+# #----------------------------------------------------------------------------------
 
-#checking if application is already installed or else install with aur helpers
-if pacman -Qi $package &> /dev/null; then
+# #checking if application is already installed or else install with aur helpers
+# if pacman -Qi $package &> /dev/null; then
 
-	echo "################################################################"
-	echo "################## "$package" is already installed"
-	echo "################################################################"
+# 	echo "################################################################"
+# 	echo "################## "$package" is already installed"
+# 	echo "################################################################"
 
-else
+# else
 
-	#checking which helper is installed
-	if pacman -Qi yaourt &> /dev/null; then
+# 	#checking which helper is installed
+# 	if pacman -Qi yaourt &> /dev/null; then
 
-		echo "Installing with yaourt"
-		yaourt -S --noconfirm $package --tmp ~/.cache
+# 		echo "Installing with yaourt"
+# 		yaourt -S --noconfirm $package --tmp ~/.cache
 		
 
-	elif pacman -Qi pacaur &> /dev/null; then
+# 	elif pacman -Qi pacaur &> /dev/null; then
 
-		echo "Installing with pacaur"
-		pacaur -S --noconfirm --noedit  $package
+# 		echo "Installing with pacaur"
+# 		pacaur -S --noconfirm --noedit  $package
 
-	elif pacman -Qi packer &> /dev/null; then
+# 	elif pacman -Qi packer &> /dev/null; then
 
-		echo "Installing with packer"
-		packer -S --noconfirm --noedit  $package
+# 		echo "Installing with packer"
+# 		packer -S --noconfirm --noedit  $package
 
-	fi
+# 	fi
 
-	# Just checking if installation was successful
-	if pacman -Qi $package &> /dev/null; then
+# 	# Just checking if installation was successful
+# 	if pacman -Qi $package &> /dev/null; then
 
-	echo "################################################################"
-	echo "#########  "$package" has been installed"
-	echo "################################################################"
+# 	echo "################################################################"
+# 	echo "#########  "$package" has been installed"
+# 	echo "################################################################"
 
-	else
+# 	else
 
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	echo "!!!!!!!!!  "$package" has NOT been installed"
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+# 	echo "!!!!!!!!!  "$package" has NOT been installed"
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
-	fi
+# 	fi
 
-fi
+# fi
 
 
-count=$[count+1]
-echo "Github "$count
-package="sardi-ghost-flexible-colora-variations-icons-git"
+# count=$[count+1]
+# echo "Github "$count
+# package="sardi-ghost-flexible-colora-variations-icons-git"
 
-#----------------------------------------------------------------------------------
+# #----------------------------------------------------------------------------------
 
-#checking if application is already installed or else install with aur helpers
-if pacman -Qi $package &> /dev/null; then
+# #checking if application is already installed or else install with aur helpers
+# if pacman -Qi $package &> /dev/null; then
 
-	echo "################################################################"
-	echo "################## "$package" is already installed"
-	echo "################################################################"
+# 	echo "################################################################"
+# 	echo "################## "$package" is already installed"
+# 	echo "################################################################"
 
-else
+# else
 
-	#checking which helper is installed
-	if pacman -Qi yaourt &> /dev/null; then
+# 	#checking which helper is installed
+# 	if pacman -Qi yaourt &> /dev/null; then
 
-		echo "Installing with yaourt"
-		yaourt -S --noconfirm $package --tmp ~/.cache
+# 		echo "Installing with yaourt"
+# 		yaourt -S --noconfirm $package --tmp ~/.cache
 		
 
-	elif pacman -Qi pacaur &> /dev/null; then
+# 	elif pacman -Qi pacaur &> /dev/null; then
 
-		echo "Installing with pacaur"
-		pacaur -S --noconfirm --noedit  $package
+# 		echo "Installing with pacaur"
+# 		pacaur -S --noconfirm --noedit  $package
 
-	elif pacman -Qi packer &> /dev/null; then
+# 	elif pacman -Qi packer &> /dev/null; then
 
-		echo "Installing with packer"
-		packer -S --noconfirm --noedit  $package
+# 		echo "Installing with packer"
+# 		packer -S --noconfirm --noedit  $package
 
-	fi
+# 	fi
 
-	# Just checking if installation was successful
-	if pacman -Qi $package &> /dev/null; then
+# 	# Just checking if installation was successful
+# 	if pacman -Qi $package &> /dev/null; then
 
-	echo "################################################################"
-	echo "#########  "$package" has been installed"
-	echo "################################################################"
+# 	echo "################################################################"
+# 	echo "#########  "$package" has been installed"
+# 	echo "################################################################"
 
-	else
+# 	else
 
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	echo "!!!!!!!!!  "$package" has NOT been installed"
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+# 	echo "!!!!!!!!!  "$package" has NOT been installed"
+# 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
-	fi
+# 	fi
 
-fi
+# fi
 
 
 count=$[count+1]
