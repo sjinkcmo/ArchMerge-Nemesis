@@ -22,7 +22,6 @@ sh AUR/install-brackets-v*.sh
 #sh AUR/install-canon-mg7750-v*.sh
 sh AUR/install-conky-aureola-v*.sh
 sh AUR/install-dropbox-v*.sh
-sh AUR/install-gnome-screenshot-v*.sh
 sh AUR/install-gradio-v*.sh
 sh AUR/install-insync-v*.sh
 sh AUR/install-paper-icon-theme-git-v*.sh

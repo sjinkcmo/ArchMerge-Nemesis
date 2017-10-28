@@ -14,6 +14,7 @@
 #software from 'normal' repositories
 
 sudo pacman -S --noconfirm --needed atom dconf-editor
+sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed pinta
 sudo pacman -S --noconfirm --needed screenfetch 
 
