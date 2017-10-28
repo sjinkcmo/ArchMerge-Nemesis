@@ -35,7 +35,6 @@ sh AUR/install-virtualbox-for-linux-kernel-v*.sh
 
 # these come last always
 
-sh AUR/install-hardcode-fixer-git-v*.sh
 sudo hardcode-fixer
 sh AUR/install-zsh-v*.sh
 
