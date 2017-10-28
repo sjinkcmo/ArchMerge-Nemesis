@@ -12,7 +12,7 @@ set -e
 ##################################################################################################################
 
 
-program="cnijfilter2-mg7700"
+package="cnijfilter2-mg7700"
 
 #----------------------------------------------------------------------------------
 
@@ -39,22 +39,22 @@ fi
 
 
 
-program="scangearmp2-mg7700"
+package="scangearmp2-mg7700"
 
 if which pacaur > /dev/null; then
 
 	echo "Installing with pacaur"
-	pacaur -S --noconfirm --noedit  $program
+	pacaur -S --noconfirm --noedit  $package
 
 elif which packer > /dev/null; then
 
 	echo "Installing with packer"
-	packer -S --noconfirm --noedit  $program
+	packer -S --noconfirm --noedit  $package
 
 elif which yaourt > /dev/null; then
 
 	echo "Installing with yaourt"
-	yaourt -S --noconfirm $program
+	yaourt -S --noconfirm $package
 
 fi
 

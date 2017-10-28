@@ -24,7 +24,6 @@ sh AUR/install-conky-aureola-v*.sh
 sh AUR/install-dropbox-v*.sh
 sh AUR/install-gradio-v*.sh
 sh AUR/install-insync-v*.sh
-sh AUR/install-paper-icon-theme-git-v*.sh
 sh AUR/install-radiotray-v*.sh
 sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-skypeforlinux-bin-v*.sh
