@@ -1,39 +1,47 @@
 [options]
+#https://github.com/thestinger/termite/blob/master/config
+allow_bold = true
+audible_bell = false
+browser = xdg-open
+clickable_url = true
+cursor_blink = system
+cursor_shape = block
+dynamic_title = true
+filter_unmatched_urls = true
+font = Monospace 13
+geometry = 900x650
+highlight = #2f2f2f
+icon_name = terminal
+modify_other_keys = false
+mouse_autohide = false
 scroll_on_output = false
 scroll_on_keystroke = true
-audible_bell = false
-mouse_autohide = false
-allow_bold = true
-dynamic_title = true
-urgent_on_bell = true
-clickable_url = true
-font = Monospace 15
-#font = Monospace 12
-scrollback_lines = 10000
-search_wrap = true
-#icon_name = terminal
-geometry = 900x650
-#fullscreen = true
 scrollback_lines = 15000
-clickable_url = true
+size_hints = false
+search_wrap = true
+urgent_on_bell = true
 
-# "system", "on" or "off"
-cursor_blink = system
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 10
+#roundness = 2.0
 
-# "block", "underline" or "ibeam"
-cursor_shape = block
-
-# $BROWSER is used by default if set, with xdg-open as a fallback
-browser = xdg-open
-
-# set size hints for the window
-#size_hints = false
-
-# Hide links that are no longer valid in url select overlay mode
-filter_unmatched_urls = true
-
-# emit escape sequences for extra modified keys
-#modify_other_keys = false
+############################################################
+#### You can change the color coding to your liking
+#### There is a folder themes in ~/config/termite/themes
+#### Copy/paste the colors from one of the 79+ templates to this one
+#### A backup of the original config termite is present  
+############################################################
+#### Use websites to make the terminal your own
+#### https://terminal.sexy
+#### https://critical.ch/xterm/
+############################################################
 
 [colors]
 # https://critical.ch/xterm/
@@ -77,9 +85,5 @@ color14 = #9aedfe
 # white
 color7  = #bfbfbf
 color15 = #e6e6e6
-
-
-
-
 
 
