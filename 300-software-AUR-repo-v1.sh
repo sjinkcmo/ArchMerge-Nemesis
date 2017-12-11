@@ -18,7 +18,7 @@ set -e
 #only if you run into issues with that
 #sudo mount -o remount,size=5G,noatime /tmp
 
-sh AUR/install-brackets-v*.sh
+#sh AUR/install-brackets-v*.sh
 #sh AUR/install-canon-mg7750-v*.sh
 sh AUR/install-conky-aureola-v*.sh
 sh AUR/install-dropbox-v*.sh
@@ -29,14 +29,14 @@ sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-skypeforlinux-bin-v*.sh
 sh AUR/install-spotify-v*.sh
 #sh AUR/install-teamviewer-v*.sh
-sh AUR/install-ttf-mac-fonts-v*.sh
+#sh AUR/install-ttf-mac-fonts-v*.sh
 sh AUR/install-virtualbox-for-linux-kernel-v*.sh
 #sh AUR/install-virtualbox-for-linux-lts-kernel-v*.sh
 
 # these come last always
 
 sudo hardcode-fixer
-sh AUR/install-zsh-v*.sh
+#sh AUR/install-zsh-v*.sh
 
 echo "################################################################"
 echo "####        Software from AUR Repository installed        ######"
